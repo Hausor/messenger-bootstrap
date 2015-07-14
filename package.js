@@ -18,6 +18,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('hausor:messenger');
+  api.use('hausor:messenger-bootstrap');
   api.addFiles('messenger-tests.js');
 });
