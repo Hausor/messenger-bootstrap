@@ -17,7 +17,6 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
+  api.use(['mike:mocha-package@0.5.7', 'practicalmeteor:chai', 'practicalmeteor:sinon']);
   api.use('hausor:messenger-bootstrap');
-  api.addFiles('messenger-tests.js');
 });
